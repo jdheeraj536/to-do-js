@@ -1,0 +1,101 @@
+body{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+#parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.child {
+    width: 250px;
+    height: 330px;
+    background-color: tomato;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    margin: 35px;
+    position: relative;
+    top: 131px;
+}
+.fa-circle-plus{
+    color: blue;
+    position: absolute;
+    left: 73%;
+    top: 102px;
+    font-size: 31px;
+}
+.add{
+    color: white;
+    position: absolute;
+    left: 76%;
+    top: 101px;
+    font-size: 27px;
+}
+.task{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.list{
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+.icon{
+    position: relative;
+    top: 79px;
+    left: 149px;
+}
+#item-heading{
+    color: white;
+    position: absolute;
+    top: 189px;
+    left: 158px;
+    font-size: 42px;
+}
+.pop{
+   
+    width: 396px;
+    height: 206px;
+    background-color: white;
+    border-radius: 13px;
+    text-align: center;
+    position: relative;
+    right: 466px;
+    top: 61px;
+
+}
+.addNew{
+    color: red;
+    text-align: center;
+    position: relative;
+    top: 38px;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+div button{
+    position: relative;
+    top: 25px;
+    right: -11px;
+    margin: 24px;
+    width: 114px;
+    height: 39px;
+    border-radius: 20px;
+    background-color: tomato;
+    color: white;
+    border: 0px;
+    font-size: large;
+}
+#name{
+    left: 12px;
+    top: 33px;
+    width: 275px;
+    position: relative;
+    height: 34px;
+    border-radius: 7px;
+}
